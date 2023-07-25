@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter JS King</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/temperature_converter.jpg">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <div class="result"></div>
+        <form>
+            <div class="cels">
+                <label for="celsus">Celsus: </label>
+                <input onkeyup="getValue(this.name)" type="number" name="celsus" id="celsus">
+            </div>
+            <div class="fehr">
+                <label for="fehrenheit">Fehrenheit: </label>
+                <input onkeyup="getValue(this.name)" type="number" name="fehrenheit" id="fehrenheit">
+            </div>
+            <div class="kelv">
+                <label for="kelvin">Kelvin: </label>
+                <input onkeyup="getValue(this.name)" type="number" name="kelvin" id="kelvin">
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
